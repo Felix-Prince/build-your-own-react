@@ -1,0 +1,1 @@
+(()=>{const e=function(e,n,...o){return{type:e,props:{...n,children:o.map((e=>"object"==typeof e?e:{type:"TEXT_ELEMENT",props:{nodeValue:e,children:[]}}))}}},n=e("div",{id:"foo"},e("a",null,"bar"),e("b",null)),o=document.getElementById("root");ReactDOM.render(n,o)})();
